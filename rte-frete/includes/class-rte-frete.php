@@ -192,7 +192,7 @@ function calcRTEFrete($package = null, $rte_frete_option = null){
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => "GET",
       CURLOPT_HTTPHEADER => array(
-        "Authorization: Bearer 9mnDzK96OChOE4QXmhLIb8xruDz0BSouJtcHdilITNUzMhHkmPtEwLaFCMedVcOpVQ-Xci99ZtZqjPhKI9EgaOpg2YN4gMI-39xtukmtJPPYqb5c_WC9vigVpSU_D4Cfky4Bn4sdOibToYugUpdhPyQ-nZOkzT_IV7tXLnpIaHY9YPr1fXfTfxurFLueIkYoeTMIsxFsQfzrmh3BXk51jhx2Ag3FjhAzZmtV4riz_NZ1XjXgGwmnC58FvETR1YXR_9sKz3AAGvvDA_Iw4OgCf5w1J6pQDP3QENJ4Vmxt_akrn-3u14-vgEeWGZ3HHzVqO5CDxVUq0UFN9QU6Vb2ctbERv80qrozCyENt1NPs_0m8UZsPuKAkieVpvWJQTQQtcm9oxkT-J84qjBCC9sMBhNiLLZbiC0aApaNyUoi9gwjL62NzV7U6aM7BBoUwaHi9zCbsrJXxRSLXXWlOtwibm4F789J459jPTJBIE1Aozsk"
+        "Authorization: {aqui seu token Bear}"
       ),
     ));
     
