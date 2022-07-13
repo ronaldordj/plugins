@@ -203,7 +203,7 @@ function calcBRASPRESSFrete($package = null, $braspress_frete_option = null){
     CURLOPT_CUSTOMREQUEST => "POST",
     CURLOPT_POSTFIELDS => json_encode($data),    
     CURLOPT_HTTPHEADER => array(
-        "Authorization: Basic R0xPQkFMVFJBREVfSE1MOiQjZEgmN0I4SyVYbEUlSDM=",
+        "Authorization: Basic {usuario e senha base64}",
         "Content-Type: application/json"
       ),
     ));
